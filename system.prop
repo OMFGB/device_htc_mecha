@@ -51,7 +51,7 @@ ro.config.svlte1x=true
 ro.telephony.default_network=8
 
 wifi.interface=eth0
-wifi.supplicant_scan_interval=30
+wifi.supplicant_scan_interval=90
 mobiledata.interfaces=rmnet0,rmnet_sdio0,rmnet1,rmnet_sdio1,data,gprs
 
 # The OpenGL ES API level that is natively supported by this device.
@@ -59,7 +59,7 @@ mobiledata.interfaces=rmnet0,rmnet_sdio0,rmnet1,rmnet_sdio1,data,gprs
 ro.opengles.version = 131072
 
 # This is a high density device with more memory, so larger vm heaps for it.
-dalvik.vm.heapsize=24m
+dalvik.vm.heapsize=32m
 
 # For emmc phone storage
 ro.phone_storage = 0
