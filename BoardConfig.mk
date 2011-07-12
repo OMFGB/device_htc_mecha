@@ -32,8 +32,6 @@ USE_CAMERA_STUB := true
 -include vendor/htc/mecha/BoardConfigVendor.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := mecha
-TARGET_NO_RECOVERY := true
-TARGET_USES_EXPLICIT_UPDATER := true
 TARGET_SPECIFIC_HEADER_PATH := device/htc/mecha/include
 
 # Use stock libril for now
