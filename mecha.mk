@@ -85,7 +85,7 @@ PRODUCT_COPY_FILES += \
     device/htc/mecha/spn-conf.xml:system/etc/spn-conf.xml \
     device/htc/mecha/voicemail-conf.xml:system/etc/voicemail-conf.xml \
     device/htc/mecha/apns-conf.xml:system/etc/apns-conf.xml \
-    device/htc/mecha/media_profiles.xml:system/etc/media_profiles.xml
+    device/htc/mecha/media_profiles.xml:system/etc/media_profiles.xml \
 
 PRODUCT_PACKAGES += \
     lights.mecha \
@@ -107,6 +107,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/htc/mecha/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
     device/htc/mecha/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
+    device/htc/mecha/egl.cfg:system/lib/egl/egl.cfg \
     device/htc/mecha/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin \
     device/htc/mecha/firmware/default.acdb:system/etc/firmware/default.acdb \
     device/htc/mecha/firmware/default_org.acdb:system/etc/firmware/default_org.acdb \
