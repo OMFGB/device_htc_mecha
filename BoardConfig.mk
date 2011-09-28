@@ -32,7 +32,6 @@ USE_CAMERA_STUB := true
 -include vendor/htc/mecha/BoardConfigVendor.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := mecha
-TARGET_SPECIFIC_HEADER_PATH := device/htc/mecha/include
 
 # Use stock libril for now
 TARGET_PROVIDES_LIBRIL := vendor/htc/mecha/proprietary/libril.so
@@ -41,7 +40,7 @@ BOARD_HAS_EXTRA_SYS_PROPS := true
 USE_IPV6_ROUTE := true
 
 # Additional Camera hacks for mecha
-BOARD_USE_FROYO_LIBCAMERA := true
+BOARD_HAVE_HTC_FFC := true
 BOARD_USE_REVERSE_FFC := true
 
 # Hack for improper scaling.
